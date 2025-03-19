@@ -15,18 +15,24 @@ The **Restaurant Management System** is a **C-based console application** design
 - **Language:** C  
 - **Key Concepts:** File Handling, Structures, Functions, Arrays, Conditional Statements  
 
-## 📌 How to Run  
-1. Clone the repository:  
-   ```sh
-   git clone https://github.com/AdilSaeed942/Restaurant-Management-System.git
-   cd Restaurant-Management-System
-
-gcc restaurant_management.c -o restaurant_management
-./restaurant_management
+## 📌 Project Structure  
+```bash
 📦 Restaurant-Management-System  
- ┣ 📜 main.c           # Main program file  
- ┣ 📜 menu.c           # Handles menu-related functions  
- ┣ 📜 orders.c         # Manages orders  
- ┣ 📜 reservations.c   # Handles table reservations  
- ┣ 📜 cashier.c        # Billing and discount system  
- ┗ 📜 README.md        # Project documentation
+ ┣ 📂 src  
+ ┃ ┣ 📜 main.c           # Entry point of the program  
+ ┃ ┣ 📜 menu.c           # Handles menu-related functions  
+ ┃ ┣ 📜 orders.c         # Manages orders and modifications  
+ ┃ ┣ 📜 reservations.c   # Manages table reservations  
+ ┃ ┣ 📜 cashier.c        # Handles billing and discount calculations  
+ ┃ ┗ 📜 utils.c          # Utility functions for input handling and validation  
+ ┣ 📂 include  
+ ┃ ┣ 📜 menu.h           # Header file for menu system  
+ ┃ ┣ 📜 orders.h         # Header file for order system  
+ ┃ ┣ 📜 reservations.h   # Header file for reservation system  
+ ┃ ┣ 📜 cashier.h        # Header file for billing system  
+ ┃ ┗ 📜 utils.h          # Header file for utility functions  
+ ┣ 📂 assets  
+ ┃ ┣ 📜 menu.txt         # Stores menu items and prices  
+ ┃ ┣ 📜 orders.txt       # Stores order details  
+ ┃ ┣ 📜 reservations.txt # Stores reservation records  
+ ┗ 📜 README.md          # Project documentation
