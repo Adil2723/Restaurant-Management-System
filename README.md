@@ -1,38 +1,114 @@
-# 🍽️ Restaurant Management System  
+<h1 align="center">🍽️ Restaurant Management System</h1>
 
-![Profile Views](https://komarev.com/ghpvc/?username=AdilSaeed942&color=blue&style=flat)  
+<h3 align="center">A Console-Based C Application for Efficient Restaurant Operations</h3>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AdilSaeed942&color=0e75b6&style=flat" />
+  <img src="https://img.shields.io/badge/Language-C-blue" />
+  <img src="https://img.shields.io/badge/Type-Console%20Application-green" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
+</p>
+
+---
 
 ## 📖 Overview  
-The **Restaurant Management System** is a **C-based console application** designed to streamline restaurant operations. It includes core functionalities such as **menu management, order processing, reservations, and a cashier system** for calculating totals and applying discounts.  
+
+The **Restaurant Management System** is a **console-based application developed in C** to efficiently manage restaurant operations.  
+
+It provides a structured system for handling **menu display, order processing, reservations, and billing**, ensuring smooth workflow and user interaction.
+
+---
 
 ## 🚀 Features  
-- **📋 Menu System** – Displays available dishes with prices.  
-- **🛒 Order System** – Enables customers to place, modify, and cancel orders.  
-- **📅 Reservation System** – Supports table booking with date and time.  
-- **💰 Cashier System** – Calculates total bills, applies discounts, and generates receipts.  
+
+- 📋 **Menu Management**  
+  Displays dishes with pricing in an organized format.  
+
+- 🛒 **Order Processing**  
+  Place, modify, and cancel orders dynamically.  
+
+- 📅 **Reservation System**  
+  Book tables with date and time handling.  
+
+- 💰 **Cashier Module**  
+  Calculate bills, apply discounts, and generate receipts.  
+
+---
 
 ## 🛠️ Tech Stack  
-- **Language:** C  
-- **Key Concepts:** File Handling, Structures, Functions, Arrays, Conditional Statements  
 
-## 📌 Project Structure  
+<p>
+  <img src="https://img.shields.io/badge/C-Programming-blue?logo=c" />
+  <img src="https://img.shields.io/badge/File%20Handling-Yes-orange" />
+  <img src="https://img.shields.io/badge/Paradigm-Procedural-yellow" />
+</p>
+
+---
+
+## 📂 Project Structure  
+
 ```bash
 📦 Restaurant-Management-System  
  ┣ 📂 src  
- ┃ ┣ 📜 main.c           # Entry point of the program  
- ┃ ┣ 📜 menu.c           # Handles menu-related functions  
- ┃ ┣ 📜 orders.c         # Manages orders and modifications  
- ┃ ┣ 📜 reservations.c   # Manages table reservations  
- ┃ ┣ 📜 cashier.c        # Handles billing and discount calculations  
- ┃ ┗ 📜 utils.c          # Utility functions for input handling and validation  
+ ┃ ┣ 📜 main.c           # Entry point  
+ ┃ ┣ 📜 menu.c           # Menu handling  
+ ┃ ┣ 📜 orders.c         # Order processing  
+ ┃ ┣ 📜 reservations.c   # Reservation system  
+ ┃ ┣ 📜 cashier.c        # Billing logic  
+ ┃ ┗ 📜 utils.c          # Helper functions  
  ┣ 📂 include  
- ┃ ┣ 📜 menu.h           # Header file for menu system  
- ┃ ┣ 📜 orders.h         # Header file for order system  
- ┃ ┣ 📜 reservations.h   # Header file for reservation system  
- ┃ ┣ 📜 cashier.h        # Header file for billing system  
- ┃ ┗ 📜 utils.h          # Header file for utility functions  
+ ┃ ┣ 📜 menu.h  
+ ┃ ┣ 📜 orders.h  
+ ┃ ┣ 📜 reservations.h  
+ ┃ ┣ 📜 cashier.h  
+ ┃ ┗ 📜 utils.h  
  ┣ 📂 assets  
- ┃ ┣ 📜 menu.txt         # Stores menu items and prices  
- ┃ ┣ 📜 orders.txt       # Stores order details  
- ┃ ┣ 📜 reservations.txt # Stores reservation records  
- ┗ 📜 README.md          # Project documentation
+ ┃ ┣ 📜 menu.txt  
+ ┃ ┣ 📜 orders.txt  
+ ┃ ┣ 📜 reservations.txt  
+ ┗ 📜 README.md  
+```
+
+---
+
+## ⚙️ Key Functional Highlights  
+
+- Modular design with clear **separation of concerns**  
+- Persistent storage using **file handling**  
+- Structured **function-based architecture**  
+- Efficient **input validation**  
+
+---
+
+## 📌 How to Run  
+
+You can run this project using any of the following methods:
+
+### 🖥️ Dev C++ 6.3
+1. Open **Dev C++**  
+2. Create a new project or open the `.c` files  
+3. Add all source files from the `src` folder  
+4. Compile and run  
+
+### 💻 VS Code
+1. Install **VS Code** + C compiler (MinGW)  
+2. Open project folder  
+3. Run using terminal or Run button  
+
+### 🌐 Online Compiler
+1. Use **OnlineGDB / Replit / JDoodle**  
+2. Paste code files  
+3. Compile & run in browser  
+
+---
+
+
+## 🤝 Contribution  
+
+Contributions are welcome! Fork the repo and submit a pull request.
+
+---
+
+## ⭐ Support  
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
