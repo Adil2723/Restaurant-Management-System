@@ -61,8 +61,7 @@ You can run this project using any of the following methods:
 ### 🖥️ Dev C++ 6.3
 1. Open **Dev C++**  
 2. Create a new project or open the `.c` files  
-3. Add all source files from the `src` folder  
-4. Compile and run  
+3. Compile and run  
 
 ### 💻 VS Code
 1. Install **VS Code** + C compiler (MinGW)  
