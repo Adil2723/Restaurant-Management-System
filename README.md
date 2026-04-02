@@ -45,32 +45,6 @@ It provides a structured system for handling **menu display, order processing, r
 
 ---
 
-## 📂 Project Structure  
-
-```bash
-📦 Restaurant-Management-System  
- ┣ 📂 src  
- ┃ ┣ 📜 main.c           # Entry point  
- ┃ ┣ 📜 menu.c           # Menu handling  
- ┃ ┣ 📜 orders.c         # Order processing  
- ┃ ┣ 📜 reservations.c   # Reservation system  
- ┃ ┣ 📜 cashier.c        # Billing logic  
- ┃ ┗ 📜 utils.c          # Helper functions  
- ┣ 📂 include  
- ┃ ┣ 📜 menu.h  
- ┃ ┣ 📜 orders.h  
- ┃ ┣ 📜 reservations.h  
- ┃ ┣ 📜 cashier.h  
- ┃ ┗ 📜 utils.h  
- ┣ 📂 assets  
- ┃ ┣ 📜 menu.txt  
- ┃ ┣ 📜 orders.txt  
- ┃ ┣ 📜 reservations.txt  
- ┗ 📜 README.md  
-```
-
----
-
 ## ⚙️ Key Functional Highlights  
 
 - Modular design with clear **separation of concerns**  
